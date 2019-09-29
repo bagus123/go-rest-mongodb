@@ -4,7 +4,7 @@
 
 ```shell
 
-# install dep (ignore if deep installed in your machine)
+# install dep (ignore if dep installed in your machine)
 curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 
 

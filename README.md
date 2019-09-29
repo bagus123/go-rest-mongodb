@@ -12,10 +12,10 @@ curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 go get github.com/bagus123/go-rest-mongodb
 
 
-# fetch the dependent packages
+# go into folder go-rest-mongodb
 cd $GOPATH/src/github.com/bagus123/go-rest-mongodb
 
-# download dependency
+# download dependencies
 dep ensure
 
 # running from the source
@@ -27,7 +27,7 @@ go run main.go
 # install
 go install
 
-# move to bin
+# go into folder bin
 cd $GOPATH/bin
 
 # run from binary

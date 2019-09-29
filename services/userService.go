@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-// User : alias of u.User
+// User : alias of models.User
 type User = models.User
 
 // UserService ...
